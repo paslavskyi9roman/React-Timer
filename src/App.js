@@ -1,12 +1,7 @@
-import './App.css';
-import Timer from './components/Timer/Timer';
+import Wrapper from './containers/Wrapper/Wrapper';
+
 function App() {
-  return (
-    <div className='App'>
-      <Timer type='desktop' />
-      <Timer type='mobile' />
-    </div>
-  );
+  return <Wrapper />;
 }
 
 export default App;

@@ -1,4 +1,3 @@
-import React from 'react';
 import CountUp from 'react-countup';
 import './Timer.css';
 import { MdAvTimer } from 'react-icons/md';
