@@ -1,0 +1,36 @@
+span {
+  font-size: 1rem;
+}
+
+.loging {
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+  background-color: rgb(156, 154, 154);
+  border-radius: 15px;
+
+  padding: 1rem;
+}
+
+input,
+button {
+  background-color: transparent;
+  border: 0px;
+}
+
+input {
+  height: 50px;
+}
+
+button {
+  font-size: 2rem;
+  width: 50%;
+  margin: 1rem auto;
+  background-color: rgb(97, 97, 97);
+  border-radius: 15px;
+}
