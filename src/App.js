@@ -1,11 +1,11 @@
-import './App.css';
-import Timer from './components/Timer/Timer';
+import { BrowserRouter } from 'react-router-dom';
+import Wrapper from './containers/Wrapper/Wrapper';
+
 function App() {
   return (
-    <div className='App'>
-      <Timer type='desktop' />
-      <Timer type='mobile' />
-    </div>
+    <BrowserRouter>
+      <Wrapper />
+    </BrowserRouter>
   );
 }
 

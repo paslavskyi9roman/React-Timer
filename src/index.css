@@ -3,6 +3,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-color: rgb(140, 164, 165);
+  box-sizing: border-box;
 }
 
 body {
